@@ -1,10 +1,6 @@
 # 🛒 Forever 
 
-Welcome to **Forever **, an eCommerce platform offering a wide selection of products with convenient filtering options. This website is designed for a smooth and enjoyable shopping experience, with modern web technologies powering the interface.
-
-## 🌐 Live Website
-
-You can visit the live website here: [Forever ](https://forever-ecom.netlify.app/)
+Welcome to **Shopsters**, an eCommerce platform offering a wide selection of products with convenient filtering options. This website is designed for a smooth and enjoyable shopping experience, with modern web technologies powering the interface.
 
 ## 📋 Features
 
@@ -48,22 +44,15 @@ You can visit the live website here: [Forever ](https://forever-ecom.netlify.app
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/faisal-din/forever-eCommerce-website-
-    ```
-2. Navigate to the project directory:
+1. Navigate to the project directory:
     ```bash
     cd forever-ecom
     ```
-3. Install dependencies:
+2. Install dependencies:
     ```bash
     npm install
     ```
-4. Run the app:
+3. Run the app:
     ```bash
     npm start
     ```
-
-
-
