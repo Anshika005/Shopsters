@@ -47,7 +47,7 @@ Welcome to **Shopsters**, an eCommerce platform offering a wide selection of pro
 1. Navigate to the project directory:
 
     ```bash
-    cd forever-ecom
+    cd Shopster
     ```
 
 2. Install dependencies:
