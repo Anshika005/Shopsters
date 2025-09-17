@@ -1,4 +1,4 @@
-# 🛒 Forever 
+# 🛒 Shopsters 
 
 Welcome to **Shopsters**, an eCommerce platform offering a wide selection of products with convenient filtering options. This website is designed for a smooth and enjoyable shopping experience, with modern web technologies powering the interface.
 
