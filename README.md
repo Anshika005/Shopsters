@@ -45,14 +45,19 @@ Welcome to **Shopsters**, an eCommerce platform offering a wide selection of pro
 ## 🚀 Getting Started
 
 1. Navigate to the project directory:
+
     ```bash
     cd forever-ecom
     ```
+
 2. Install dependencies:
+
     ```bash
     npm install
     ```
+
 3. Run the app:
+
     ```bash
     npm start
     ```
