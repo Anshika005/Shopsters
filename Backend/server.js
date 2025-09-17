@@ -1,30 +1,29 @@
 import express from 'express'
 import cors from 'cors'
-import 'dotenv/config'
-import connectCloudinary from './config/cloudinary.js'
+import 'dotenv/config' 
 import connectDB from './config/mongodb.js'
+import connectCloudinary from './config/cloudinary.js'
+import userRouter from './routes/userRoute.js'
+import productRouter from './routes/productRoute.js'
+import cartRouter from './routes/cartRoute.js'
+import orderRouter from './routes/orderRoute.js'
 
-// App config
+//App config
 const app = express()
-const port = process.env.PORT || 0;
-connectDB()
-connectCloudinary()
-
-// Middleware
+const port = process.env.PORT || 4000
+connectDB();
+connectCloudinary();
+// middlewares
 app.use(express.json())
 app.use(cors())
 
-// API endpoints
+// api endpoints
+app.use('/api/user', userRouter);
+app.use('/api/product', productRouter);
+app.use('/api/cart', cartRouter);
+app.use('/api/order', orderRouter);
 app.get('/', (req, res) => {
-    res.send("API Working")
+    res.send("API working")
 })
 
-// Start server with error handling
-app.listen(port, (err) => {
-    if (err) {
-        console.error("Error starting server:", err)
-    } else {
-        console.log("Server started on PORT: " + port)
-        console.log(`Visit: http://localhost:${port}`)
-    }
-})
+app.listen(port, ()=> console.log('Server started on port: ' + port));
