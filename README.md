@@ -2,7 +2,7 @@
 
 Welcome to **Shopsters**, an eCommerce platform offering a wide selection of products with convenient filtering options. This website is designed for a smooth and enjoyable shopping experience, with modern web technologies powering the interface.
 
-## 📋 Features
+## 📋 Features 
 
 - 🏠 **Home Page**: The home page consists of multiple components, each contributing to a dynamic and engaging user experience:
   - 🎉 `<Hero />`: A large banner section with promotional images and deals.
